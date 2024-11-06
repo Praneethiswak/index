@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praneeth - Video Editor & VFX Artist</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <nav id="main-nav" class="fixed top-0 left-0 right-0 bg-gray-800 bg-opacity-90 z-50">
+        <ul class="flex justify-center space-x-6 py-4">
+            <li><button class="nav-link" data-section="home">HOME</button></li>
+            <li><button class="nav-link" data-section="services">SERVICES</button></li>
+            <li><button class="nav-link" data-section="portfolio">PORTFOLIO</button></li>
+            <li><button class="nav-link" data-section="about">ABOUT</button></li>
+            <li><button class="nav-link" data-section="contact">contact</button></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="h-screen flex items-center justify-center">
+        <div class="text-center">
+            <h1 class="text-5xl font-bold mb-4 animate-fade-in-down">Praneeth</h1>
+            <p class="text-xl text-gray-300 mb-8 animate-fade-in-up">Video Editor & VFX Artist</p>
+            <button id="view-work-btn" class="btn animate-fade-in-scale">
+                View My Work
+            </button>
+        </div>
+    </section>
+    
+
+    <section id="services" class="py-20 bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">My Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div class="service-card">
+                    <div class="flex items-center justify-center mb-4">
+                        <i data-lucide="play" class="w-12 h-12 text-blue-400"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-center">Video Editing</h3>
+                    <p class="text-gray-300 text-center">Professional video editing services to bring your vision to life. From color correction to pacing, I ensure your video tells the perfect story.</p>
+                </div>
+                <div class="service-card">
+                    <div class="flex items-center justify-center mb-4">
+                        <i data-lucide="wand-2" class="w-12 h-12 text-purple-400"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-center">VFX & Motion Graphics</h3>
+                    <p class="text-gray-300 text-center">Cutting-edge visual effects and motion graphics to elevate your project. I create stunning visuals that captivate and amaze your audience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">My Portfolio</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="portfolio-item">
+                    <img src="img/akash1.JPG" alt="Cinematic Trailer" class="w-full h-64 object-cover">
+                    <div class="portfolio-item-overlay">
+                        <div class="text-center">
+                            <h3 class="text-xl font-semibold mb-2">Cinematic Trailer</h3>
+                            <p class="text-sm text-gray-300">Video Editing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="img/DSC07162.JPG" alt="Sci-Fi VFX Shot" class="w-full h-64 object-cover">
+                    <div class="portfolio-item-overlay">
+                        <div class="text-center">
+                            <h3 class="text-xl font-semibold mb-2">Sci-Fi VFX Shot</h3>
+                            <p class="text-sm text-gray-300">Visual Effects</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="img/DSC07171.JPG" alt="Product Animation" class="w-full h-64 object-cover">
+                    <div class="portfolio-item-overlay">
+                        <div class="text-center">
+                            <h3 class="text-xl font-semibold mb-2">Product Animation</h3>
+                            <p class="text-sm text-gray-300">Motion Graphics</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Music Video Edit" class="w-full h-64 object-cover">
+                    <div class="portfolio-item-overlay">
+                        <div class="text-center">
+                            <h3 class="text-xl font-semibold mb-2">Music Video Edit</h3>
+                            <p class="text-sm text-gray-300">Video Editing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="/placeholder.svg?height=300&width=400" alt="3D Character Animation" class="w-full h-64 object-cover">
+                    <div class="portfolio-item-overlay">
+                        <div class="text-center">
+                            <h3 class="text-xl font-semibold mb-2">3D Character Animation</h3>
+                            <p class="text-sm text-gray-300">Visual Effects</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="/placeholder.svg?height=300&width=400" alt="Explainer Video" class="w-full h-64 object-cover">
+                    <div class="portfolio-item-overlay">
+                        <div class="text-center">
+                            <h3 class="text-xl font-semibold mb-2">Explainer Video</h3>
+                            <p class="text-sm text-gray-300">Motion Graphics</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">About Me</h2>
+            <div class="flex flex-col md:flex-row items-center justify-center">
+                <div class="md:w-1/3 mb-8 md:mb-0">
+                    <img src="/placeholder.svg?height=300&width=300" alt="Praneeth" class="rounded-full w-64 h-64 object-cover mx-auto">
+                </div>
+                <div class="md:w-2/3 md:pl-12">
+                    <p class="text-lg mb-6">
+                        Hi, I'm Praneeth, a passionate video editor and VFX artist with over 5 years of experience in the industry. I specialize in creating visually stunning and emotionally engaging content for a wide range of clients and projects.
+                    </p>
+                    <p class="text-lg mb-6">
+                        My journey in the world of visual storytelling began with a fascination for how images and motion can convey powerful messages. Since then, I've honed my skills in various software including Adobe Premiere Pro, After Effects, and Nuke, always staying up-to-date with the latest industry trends and technologies.
+                    </p>
+                    <p class="text-lg">
+                        Whether it's crafting a compelling narrative through video editing or creating mind-bending visual effects, I'm committed to delivering high-quality work that exceeds expectations. Let's collaborate and bring your vision to life!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">Get In Touch</h2>
+            <div class="max-w-md mx-auto">
+                <form id="contact-form" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-medium mb-2">Name</label>
+                        <input type="text" id="name" name="name" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 bg-gray-700">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium mb-2">Email</label>
+                        <input type="email" id="email" name="email" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 bg-gray-700">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium mb-2">Message</label>
+                        <textarea id="message" name="message" rows="4" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 bg-gray-700"></textarea>
+                    </div>
+                    <div>
+                        <button id="submit" type="submit" class="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition duration-300">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Praneeth. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
